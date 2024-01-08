@@ -49,7 +49,7 @@ function updateSectorStyle(chart, selectedSectors) {
 document.getElementById('rightArrow').addEventListener('click', function() {
     if (selectedSectors.length > 0) {
         // Example of redirection. Modify as per your requirement.
-        window.location.href = 'page.html?selected=' + selectedSectors.join(',');
+        window.location.href = 'page?selected=' + selectedSectors.join(',');
     } else {
         alert('Please select at least one sector.');
     }
