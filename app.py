@@ -19,6 +19,8 @@ def openSectorsPage():
 
 @app.route('/page')
 def openPage():
+    query_param = request.args.get('selected')
+    ##return f"You searched for: {query_param}"
     return render_template('page.html')
 
 @app.route('/upload', methods=['POST'])
