@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Pie Chart</title>
+    <!-- Add any additional CSS here -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js CDN -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/sector-style.css') }}">
+</head>
+<body>
+    <div>
+        <canvas id="myPieChart"></canvas>
+        <style>
+            #myPieChart {
+                width: 800px; /* Adjust this value as needed */
+                margin: auto;
+            }
+            .chart-container {
+                width: 800%; /* Adjust container width as needed */
+                margin: auto;
+            }
+        </style>
+        <img src="roots.png" id="rightArrow" class="arrow"> <!-- Update path -->
+        <button id="nextButton">Next</button>
+    </div>
+    <script src="piechart.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

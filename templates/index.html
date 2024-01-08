@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/index-style.css') }}"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Your Ideas</h1>
+        <!-- <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="fileInput">
+            <button type="submit">Upload</button>
+        </form> -->
+
+        {% if uploadedFile == None %}
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" id="fileInput">
+                <button type="submit">Upload</button>
+            </form>
+        {% else %}
+            <div>{{uploadedFile}}</div>
+        {% endif %}
+        <!-- Next button -->
+        <a href="sectors" ><button>Let's Gooo</button></a>
+    </div>
+</body>
+</html>

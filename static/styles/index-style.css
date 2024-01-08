@@ -1,0 +1,42 @@
+body {
+    background-image: url('../images/Earth.png'); /* Replace with the correct path to your image */ 
+    background-size: cover;
+    background-position: fill;
+    background-repeat: repeat;
+    position: left top;
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    text-align: center;
+    color: #e4f316; /* Choose a color that fits your design */
+    font-size: 2em; /* Adjust the size as needed */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* You can add more styling properties as needed */
+}
+
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}

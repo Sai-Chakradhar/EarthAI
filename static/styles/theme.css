@@ -1,0 +1,74 @@
+body {
+    background-image: url('../images/ce.png'); /* Replace with the correct path to your image */
+    background-size: cover;
+    background-position: fill;
+    background-repeat: repeat;
+    position: left top;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.3); /* White overlay with 70% opacity */
+    z-index: -1;
+}
+
+h1 {
+    text-align: center;
+    color: #F5F5DC; /* Choose a color that fits your design */
+    font-size: 2em; /* Adjust the size as needed */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* You can add more styling properties as needed */
+}
+
+#inputForm {
+    background-color: #e7f5ee;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+}
+
+input[type="text"] {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#output {
+    margin-top: 20px;
+    background-color: #dff0d8;
+    padding: 10px;
+    border-radius: 5px;
+    width: 425px;
+    height: 200px;
+    margin: auto;
+}

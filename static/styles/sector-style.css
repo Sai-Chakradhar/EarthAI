@@ -1,0 +1,9 @@
+.arrow {
+    cursor: pointer;
+    height: 200px; /* Adjust the size as needed */
+    width: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 90px; /* Adjust based on your layout */
+}

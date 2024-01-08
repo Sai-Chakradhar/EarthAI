@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static',filename='styles/theme.css') }}">
+</head>
+<body>
+<h1>AI Earth Guardians</h1>
+<form action="/submit" id="inputForm" method="post">
+  <label for="mySelect">Risk :</label>
+  <select id="mySelect" name="Risk">
+    <option value="None">None</option>
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+    <!-- Add as many options as you need -->
+  </select>
+  <br><br>
+  <label for="mySelect">Market Size :</label>
+  <select id="mySelect" name="Market Size">
+    <option value="None">None</option>
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+    <!-- Add as many options as you need -->
+  </select>
+  <br><br>
+  <label for="mySelect">Novelty :</label>
+  <select id="mySelect" name="Novelty">
+    <option value="None">None</option>
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+    <!-- Add as many options as you need -->
+  </select>
+  <br><br>
+  <label for="mySelect">Feasibility :</label>
+  <select id="mySelect" name="Feasibility">
+    <option value="None">None</option>
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+    <!-- Add as many options as you need -->
+  </select>
+  <br><br>
+  <label for="mySelect">ROI :</label>
+  <select id="mySelect" name="ROI">
+    <option value="None">None</option>
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+    <!-- Add as many options as you need -->
+  </select>
+  <br><br>
+  <label for="mySelect">Scalability :</label>
+  <select id="mySelect" name="Scalability">
+    <option value="None">None</option>
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+    <!-- Add as many options as you need -->
+  </select>
+  <br><br>
+  <label for="mySelect">Sector Score :</label>
+  <select id="mySelect" name="Sector Score">
+    <option value="None">None</option>
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+    <!-- Add as many options as you need -->
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+<br>{{name}}<br>
+<div id="output"></div>
+
+</body>
+</html>
