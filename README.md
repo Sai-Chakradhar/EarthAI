@@ -44,13 +44,6 @@ or for Streamlit:
 
 streamlit run app.py
 
-Example Output
-
-Problem Statement	Solution	Risk	Market	ROI	Loop Score
-Electronic waste recycling is inefficient	AI-powered e-waste sorting system	6	8	25%	7
-Lack of incentives for plastic recycling	Deposit return scheme for plastics	5	7	30%	8
-Short lifespan of consumer electronics	Modular repairable electronics	7	8	20%	9
-
 Next Steps
 	•	Improve data preprocessing and GPT-4 prompt tuning.
 	•	Enhance UI with interactive filtering for investors and policymakers.
