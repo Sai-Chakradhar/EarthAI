@@ -1,22 +1,9 @@
 # EarthAI
-Here’s a README.md for your project:
-
 AI EarthHack Project
 
 Overview
 
 This project is designed to analyze and evaluate Circular Economy solutions using AI-driven assessment. It processes a dataset of proposed solutions, categorizes them into different circular economy loops, and scores them based on various business and sustainability factors. The implementation leverages OpenAI’s GPT-4, Pandas, and data preprocessing techniques to generate structured insights.
-
-Project Structure
-
-.
-├── static/                  # Static assets (if any)
-├── templates/               # HTML templates for web-based UI (if applicable)
-├── AI_EarthHack_Dataset.csv # Input dataset containing problem-solution pairs
-├── README.md                # Documentation
-├── aiearth3.ipynb           # Jupyter Notebook with AI filtering logic (older version)
-├── aiearth4.ipynb           # Jupyter Notebook with improved AI scoring and evaluation
-├── app.py                   # Flask/Streamlit application for running the model
 
 Key Features
 	•	Dataset Filtering: Filters problem-solution pairs where the solution contains at least 10 words.
